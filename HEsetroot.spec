@@ -23,12 +23,14 @@ Enlightenment korzystanie z pseudo-przezroczysto¶ci.
 %setup -q -n %{name}
 
 %build
-%{__make}
+%{__make} \
+	CFLAGS="%{rpmcflags} -I/usr/X11R6/include -Wall" \
+	LDFLAGS="%{rpmldflags} -L/usr/X11R6/%{_lib} -lImlib2 -lm"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install HEsetroot $RPM_BUILD_ROOT%{_bindir}
 
 %clean
