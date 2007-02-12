@@ -1,5 +1,5 @@
 Summary:	Esetroot with "H" prion
-Summary(pl.UTF-8):   Esetroot z prionem "H"
+Summary(pl.UTF-8):	Esetroot z prionem "H"
 Name:		HEsetroot
 Version:	0.1
 Release:	1
