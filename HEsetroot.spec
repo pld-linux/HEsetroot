@@ -1,5 +1,5 @@
 Summary:	Esetroot with "H" prion
-Summary(pl):	Esetroot z prionem "H"
+Summary(pl.UTF-8):   Esetroot z prionem "H"
 Name:		HEsetroot
 Version:	0.1
 Release:	1
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This program enables non-Enlightenment users to use
 pseudotransparency.
 
-%description -l pl
-Program ten umoøliwia uøytkownikom zarz±dcÛw okien innych niø
-Enlightenment korzystanie z pseudo-przezroczysto∂ci.
+%description -l pl.UTF-8
+Program ten umo≈ºliwia u≈ºytkownikom zarzƒÖdc√≥w okien innych ni≈º
+Enlightenment korzystanie z pseudo-przezroczysto≈õci.
 
 %prep
 %setup -q -n %{name}
